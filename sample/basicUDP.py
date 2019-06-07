@@ -19,6 +19,7 @@ time.sleep(1)
 node.powerUp()
 
 node.sendATComm("ATE1","OK\r\n")
+node.sendATComm("AT+CGDCONT=1,'IP','sakura'","OK\r\n")
 
 node.getIMEI()
 time.sleep(0.5)
