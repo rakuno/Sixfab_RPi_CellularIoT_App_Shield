@@ -34,7 +34,7 @@ time.sleep(0.5)
 
 # node.setGSMBand(node.GSM_900)
 # time.sleep(0.5)
-node.setCATM1Band(node.LTE_B5)
+node.setCATM1Band(node.LTE_B1)
 time.sleep(0.5)
 # node.setNBIoTBand(node.LTE_B20)
 # time.sleep(0.5)
